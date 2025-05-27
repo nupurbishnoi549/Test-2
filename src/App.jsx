@@ -6,7 +6,6 @@ import Contact from './pages/Contact';
 import Profile from './components/ProfileCard';
 import SimpleSlide from './pages/SimpleSlide';
 import CounterApp from './pages/CounterApp';
-// import ProductList from './components/Products';
 
 const App = () => {
   return (
