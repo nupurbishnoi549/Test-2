@@ -14,11 +14,11 @@ const CounterApp = () => {
             <p className="text-4xl mb-4">{count}</p>
 
             <div className="flex gap-3">
-                <button onClick={() => setCount(count + 1)} className="bg-blue-500 text-white px-4 py-2 rounded">
+                <button onClick={() => setCount(count + 1)} className="bg-blue-500 cursor-pointer text-white px-4 py-2 rounded">
                     Increment
                 </button>
 
-                <button onClick={() => setCount(count - 1)} className="bg-blue-500 text-white px-4 py-2 rounded">
+                <button onClick={() => setCount(count - 1)} className="bg-blue-500 cursor-pointer text-white px-4 py-2 rounded">
                     Decrement
                 </button>
 
@@ -29,7 +29,7 @@ const CounterApp = () => {
                 >
                     <button
                         onClick={() => setCount(0)}
-                        className={`px-4 py-2 rounded text-white ${count === 0 ? 'bg-gray-400' : 'bg-red-500'}`}
+                        className={`px-4 py-2 rounded cursor-pointer text-white ${count === 0 ? 'bg-gray-400' : 'bg-red-500'}`}
                     >
                         Reset
                     </button>
