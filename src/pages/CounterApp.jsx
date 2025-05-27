@@ -5,7 +5,7 @@ const CounterApp = () => {
     const [showTooltip, setShowTooltip] = useState(false);
 
     useEffect(() => {
-        console.log(`Count updated to: ${count}`);
+        console.log(`Count : ${count}`);
     }, [count]);
 
     return (
