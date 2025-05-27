@@ -22,7 +22,7 @@ const App = () => {
                 <Profile
                   name="Nupur Bishnoi"
                   bio="User-focused and innovative frontend developer"
-                  contact="dummy.dev.magic@gmail.com"
+                  contact="nupurbishnoi29@gmail.com"
                 />
               </div>
            
