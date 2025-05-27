@@ -9,7 +9,7 @@ const Contact = () => {
     };
 
     return (
-        <div className='pt-12 pb-10'>
+        <div className='pt-20 pb-10'>
             <form
                 onSubmit={handleSubmit}
                 className="max-w-xl mx-auto p-10 space-y-6 bg-amber-100 shadow-lg rounded-lg"

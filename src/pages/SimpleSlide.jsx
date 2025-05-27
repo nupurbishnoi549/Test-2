@@ -7,7 +7,7 @@ import 'swiper/css/pagination';
 
 const SimpleSlide = () => {
     return (
-        <div className='py-11 bg-[#f7f7f7]'>
+        <div className='py-20 bg-[#f7f7f7]'>
             <div className="max-w-[1440px] px-4 mx-auto">
                 <Swiper
                     modules={[Autoplay]}

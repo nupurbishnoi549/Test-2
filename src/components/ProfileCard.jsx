@@ -7,7 +7,7 @@ const Profile = ({ name, bio, contact }) => {
     };
 
     return (
-        <div className="max-w-sm bg-white shadow-lg rounded-lg overflow-hidden p-5 mx-auto mt-10">
+        <div className="max-w-sm bg-white shadow-lg rounded-lg overflow-hidden p-5 mx-auto mt-20">
             <div className="text-center">
                 <img
                     className="w-full rounded-2xl mx-auto mb-4"
