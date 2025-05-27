@@ -31,7 +31,7 @@ const Contact = () => {
                     className="w-full p-2 border border-black rounded h-24 resize-none font-normal text-base focus:outline-none focus:ring focus:ring-black"
                 ></textarea>
                 <div className='justify-center flex'>
-                    <button className='bg-black text-white px-8 py-2 rounded-full'>Submit</button>
+                    <button className='bg-black text-white px-8 cursor-pointer py-2 rounded-full'>Submit</button>
                </div>
             </form>
         </div>
