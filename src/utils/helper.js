@@ -53,7 +53,7 @@ export const swiperSlider = [
         description: 'Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. '
     },
     {
-        stepImg: Card2,
+        Img: Card2,
         imgContent: 'Custom Showers',
         heading: 'Custom Showers',
         description: 'Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. '
