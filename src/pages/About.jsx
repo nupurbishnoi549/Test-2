@@ -8,6 +8,7 @@ const About = () => {
             <div className="p-4 grid md:grid-cols-3 gap-4">
                 {products.map((product, index) => (
                     <div key={index} className="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-all">
+                        <img src={product.Img} alt={product.name} className="w-full h-48 object-contain rounded mb-3" />
                         <h2 className="text-xl font-bold mb-1">{product.name}</h2>
                         <p className="text-green-600 text-lg font-semibold mb-2">{product.price}</p>
                         <ul className="list-disc list-inside text-sm text-gray-700">

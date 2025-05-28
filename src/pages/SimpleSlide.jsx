@@ -29,7 +29,7 @@ const SimpleSlide = () => {
                             <div className='overflow-hidden w-full mx-auto rounded-xl shadow-lg bg-white'>
                                 <img
                                     className='w-full h-auto object-cover rounded-t-xl'
-                                    src={obj.stepImg}
+                                    src={obj.Img}
                                     alt={obj.heading}
                                 />
                                 <div className='bg-[#003459] w-full p-5 text-white rounded-b-xl'>
