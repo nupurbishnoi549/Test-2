@@ -5,12 +5,12 @@ import Card3 from '../assets/images/png/card3.png';
 export const products = [
     {
         name: "Wireless Earbuds",
-        price: "$29.99",
+        price: "$9.99",
         features: ["Bluetooth 5.0", "Noise Cancellation", "12hr Battery", "Compact Case"]
     },
     {
         name: "Smart Watch",
-        price: "$59.99",
+        price: "$29.99",
         features: ["Heart Rate Monitor", "Sleep Tracking", "Water Resistant", "1 Week Battery"]
     },
     {
